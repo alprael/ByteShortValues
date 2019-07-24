@@ -29,18 +29,21 @@ public class ByteShortValues {
     int myInt = 100_000;
 
     long myLong = 50_000 + 10 * (myByte + myShort + myInt);
-
     System.out.println(myLong);
 
     short shortTotal = (short) (50_000 + 10 * (myByte + myShort + myInt));
-
     System.out.println(shortTotal);
+    //Overflow
 
     float myMaxFloat = Float.MAX_VALUE;
     float myMinFloat = Float.MIN_VALUE;
-
     System.out.println("Float max value= " + myMaxFloat);
     System.out.println("Float min value= " + myMinFloat);
+
+    double myMaxDouble = Double.MAX_VALUE;
+    double myMinDouble = Double.MIN_VALUE;
+    System.out.println("Double max value= " + myMaxDouble);
+    System.out.println("Double min value= " + myMinDouble);
 
   }
 
