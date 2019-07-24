@@ -45,6 +45,11 @@ public class ByteShortValues {
     System.out.println("Double max value= " + myMaxDouble);
     System.out.println("Double min value= " + myMinDouble);
 
+    int myIntValue = 5;
+    float myFloatValue = (float) 5.25;
+    float myFloatValue2 = 5.25f;
+    double myDoubleValue = 5.25;
+
   }
 
 }
